@@ -1,0 +1,32 @@
+body {
+  background-color: darkblue;
+}
+
+div {
+  background-color: slateblue;
+}
+
+ul {
+  display: inline-block;
+  transition: all;
+  padding: 0;
+}
+
+li {
+  background-color: lightblue;
+  flex: 1 1 300px;
+  max-height: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+li:hover {
+  background-color: limegreen; 
+}
+li img {
+  max-width: 100%;
+  max-height: 30%;
+}
